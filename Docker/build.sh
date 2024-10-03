@@ -10,5 +10,5 @@ docker build \
   --tag myapp:latest \
   .
 
-# After the build is done, tag the cache image
+# After the build is done, tag the cached image
 docker tag myapp:latest myapp:cache

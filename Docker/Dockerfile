@@ -17,9 +17,6 @@ RUN npm install --cache /root/.npm
 # Copy application source code
 COPY . .
 
-# Build the application (if necessary, e.g., transpiling TypeScript)
-# RUN npm run build
-
 # Stage 2: Create the runtime image
 FROM node:18-alpine
 

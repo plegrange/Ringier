@@ -141,7 +141,7 @@ resource "aws_instance" "bastion" {
     key_name = aws_key_pair.bastion_key.key_name
     subnet_id = aws_subnet.public.id
     vpc_security_group_ids = [aws_security_group.bastion_sg.id]
-
+    iam_instance_profile = aws_iam_instance_profile.bastion_profile.name
     tags = {
         Name = "bastion-host"
     }
@@ -154,7 +154,7 @@ resource "aws_instance" "private_instance" {
     key_name = aws_key_pair.bastion_key.key_name
     subnet_id = aws_subnet.private.id
     vpc_security_group_ids = [aws_security_group.private_sg.id]
-
+    iam_instance_profile = aws_iam_instance_profile.bastion_profile.name
     tags = {
         Name = "private-instance"
     }
