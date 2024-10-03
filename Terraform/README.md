@@ -1,4 +1,6 @@
-# Terraform in AWS
+# Bastion with Terraform in AWS
+![image](https://github.com/user-attachments/assets/3d3f083f-e244-4e57-85a4-32e0a160cfb0)
+
 ## Requirements (Linux)
 - terraform ```sudo apt-get install terraform```
 - awscli ```sudo apt install awscli```
