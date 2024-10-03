@@ -1,6 +1,6 @@
 # Web API
 ## Installation (Linux)
-### Create virutal python environment
+### Create virtual python environment
 ```python -m venv .venv ```
 ### Activate venv from directory Ringier/WebAPI/
 ```source .venv/bin/activate```
