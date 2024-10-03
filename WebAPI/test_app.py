@@ -2,7 +2,7 @@ import unittest
 import json
 from unittest.mock import patch, mock_open
 from flask import Flask
-from app import app  # assuming the Flask app is defined in app.py
+from app import app
 
 class TestSystemInfoAPI(unittest.TestCase):
     def setUp(self):
