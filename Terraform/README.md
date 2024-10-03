@@ -30,4 +30,4 @@ Default output format [None]: json
 ```
 
 ## Deployment
-Deploy the stack using ```terraform apply```
+From directory ```/Ringier/Terraform/```, deploy the stack using ```terraform apply```
